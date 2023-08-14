@@ -1,8 +1,8 @@
 package util
 
 import (
-	"github.com/teamssix/cf/pkg/util/database"
-	"github.com/teamssix/cf/pkg/util/pubutil"
+	"github.com/fwoawr/cf/pkg/util/database"
+	"github.com/fwoawr/cf/pkg/util/pubutil"
 	"time"
 
 	log "github.com/sirupsen/logrus"

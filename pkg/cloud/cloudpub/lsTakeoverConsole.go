@@ -2,8 +2,8 @@ package cloudpub
 
 import (
 	log "github.com/sirupsen/logrus"
-	"github.com/teamssix/cf/pkg/cloud"
-	"github.com/teamssix/cf/pkg/util/database"
+	"github.com/fwoawr/cf/pkg/cloud"
+	"github.com/fwoawr/cf/pkg/util/database"
 )
 
 func LsTakeoverConsole(provider string) {

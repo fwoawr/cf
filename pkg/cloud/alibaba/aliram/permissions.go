@@ -2,21 +2,21 @@ package aliram
 
 import (
 	"fmt"
-	"github.com/teamssix/cf/pkg/util/errutil"
+	"github.com/fwoawr/cf/pkg/util/errutil"
 	"sort"
 	"strconv"
 	"strings"
 
-	"github.com/teamssix/cf/pkg/cloud/alibaba/aliecs"
-	"github.com/teamssix/cf/pkg/cloud/alibaba/alioss"
-	"github.com/teamssix/cf/pkg/cloud/alibaba/alirds"
+	"github.com/fwoawr/cf/pkg/cloud/alibaba/aliecs"
+	"github.com/fwoawr/cf/pkg/cloud/alibaba/alioss"
+	"github.com/fwoawr/cf/pkg/cloud/alibaba/alirds"
 
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/ecs"
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/ram"
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/sts"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/teamssix/cf/pkg/cloud"
+	"github.com/fwoawr/cf/pkg/cloud"
 )
 
 var header = []string{"序号 (SN)", "策略名称 (PolicyName)", "描述 (Description)"}

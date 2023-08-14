@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"github.com/schollz/progressbar/v3"
 	log "github.com/sirupsen/logrus"
-	"github.com/teamssix/cf/pkg/util"
-	"github.com/teamssix/cf/pkg/util/errutil"
+	"github.com/fwoawr/cf/pkg/util"
+	"github.com/fwoawr/cf/pkg/util/errutil"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -34,9 +34,9 @@ func Upgrade(version string) {
 			fileName = fmt.Sprintf("cf_%s_%s_%s.tar.gz", newVersion, runtime.GOOS, runtime.GOARCH)
 		}
 		if isMainLand() {
-			downloadURL = fmt.Sprintf("https://ghproxy.com/github.com/teamssix/cf/releases/download/%s/%s", newVersion, fileName)
+			downloadURL = fmt.Sprintf("https://ghproxy.com/github.com/fwoawr/cf/releases/download/%s/%s", newVersion, fileName)
 		} else {
-			downloadURL = fmt.Sprintf("https://github.com/teamssix/cf/releases/download/%s/%s", newVersion, fileName)
+			downloadURL = fmt.Sprintf("https://github.com/fwoawr/cf/releases/download/%s/%s", newVersion, fileName)
 		}
 		path, _ := os.Executable()
 		_, oldFileName := filepath.Split(path)

@@ -3,14 +3,14 @@ package awsec2
 import (
 	"os"
 
-	"github.com/teamssix/cf/pkg/util/errutil"
+	"github.com/fwoawr/cf/pkg/util/errutil"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
 	log "github.com/sirupsen/logrus"
-	"github.com/teamssix/cf/pkg/util/cmdutil"
+	"github.com/fwoawr/cf/pkg/util/cmdutil"
 )
 
 func EC2Client(region string) *ec2.EC2 {

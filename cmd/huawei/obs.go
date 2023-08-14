@@ -3,7 +3,7 @@ package huawei
 import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/teamssix/cf/pkg/cloud/huawei/huaweiobs"
+	"github.com/fwoawr/cf/pkg/cloud/huawei/huaweiobs"
 )
 
 var (

@@ -2,8 +2,8 @@ package alibaba
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/teamssix/cf/pkg/cloud/alibaba/aliconsole"
-	"github.com/teamssix/cf/pkg/cloud/cloudpub"
+	"github.com/fwoawr/cf/pkg/cloud/alibaba/aliconsole"
+	"github.com/fwoawr/cf/pkg/cloud/cloudpub"
 )
 
 var (

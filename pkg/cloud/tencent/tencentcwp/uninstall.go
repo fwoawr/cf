@@ -2,7 +2,7 @@ package tencentcwp
 
 import (
 	log "github.com/sirupsen/logrus"
-	"github.com/teamssix/cf/pkg/util/errutil"
+	"github.com/fwoawr/cf/pkg/util/errutil"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
 	cwp "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cwp/v20180228"
 )

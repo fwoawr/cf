@@ -3,9 +3,9 @@ package aliconsole
 import (
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/ram"
 	log "github.com/sirupsen/logrus"
-	"github.com/teamssix/cf/pkg/cloud/alibaba/aliram"
-	"github.com/teamssix/cf/pkg/util/database"
-	"github.com/teamssix/cf/pkg/util/errutil"
+	"github.com/fwoawr/cf/pkg/cloud/alibaba/aliram"
+	"github.com/fwoawr/cf/pkg/util/database"
+	"github.com/fwoawr/cf/pkg/util/errutil"
 	"strings"
 )
 

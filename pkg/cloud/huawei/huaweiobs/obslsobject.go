@@ -4,7 +4,7 @@ import (
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/huaweicloud/huaweicloud-sdk-go-obs/obs"
 	log "github.com/sirupsen/logrus"
-	"github.com/teamssix/cf/pkg/util/errutil"
+	"github.com/fwoawr/cf/pkg/util/errutil"
 	"strconv"
 )
 

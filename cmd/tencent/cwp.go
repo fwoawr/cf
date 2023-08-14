@@ -3,7 +3,7 @@ package tencent
 import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	tencentcwp2 "github.com/teamssix/cf/pkg/cloud/tencent/tencentcwp"
+	tencentcwp2 "github.com/fwoawr/cf/pkg/cloud/tencent/tencentcwp"
 )
 
 var (

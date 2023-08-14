@@ -1,11 +1,11 @@
 <p align="center">
 <img width="500" src="https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202207022209168.png"><br><br>
-<a href="https://github.com/teamssix/cf/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/teamssix/cf"/></a>
-<a href="https://github.com/teamssix/cf/releases"><img alt="GitHub issues" src="https://img.shields.io/github/release/teamssix/cf"/></a>
-<a href="https://github.com/teamssix/cf/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
-<a href="https://github.com/teamssix/cf/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/teamssix/cf/total?color=brightgreen"/></a>
-<a href="https://goreportcard.com/report/github.com/teamssix/cf"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/teamssix/cf"/></a>
-<a href="https://twitter.com/intent/tweet/?text=CF%2C%20an%20amazing%20cloud%20exploitation%20framework%0Ahttps%3A%2F%2Fgithub.com%2Fteamssix%2Fcf%0A%23cloud%20%23security%20%23cloudsecurity%20%23cybersecurtiy"><img alt="tweet" src="https://img.shields.io/twitter/url?url=https://github.com/teamssix/cf" /></a>
+<a href="https://github.com/fwoawr/cf/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/fwoawr/cf"/></a>
+<a href="https://github.com/fwoawr/cf/releases"><img alt="GitHub issues" src="https://img.shields.io/github/release/fwoawr/cf"/></a>
+<a href="https://github.com/fwoawr/cf/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
+<a href="https://github.com/fwoawr/cf/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/fwoawr/cf/total?color=brightgreen"/></a>
+<a href="https://goreportcard.com/report/github.com/fwoawr/cf"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/fwoawr/cf"/></a>
+<a href="https://twitter.com/intent/tweet/?text=CF%2C%20an%20amazing%20cloud%20exploitation%20framework%0Ahttps%3A%2F%2Fgithub.com%2Fteamssix%2Fcf%0A%23cloud%20%23security%20%23cloudsecurity%20%23cybersecurtiy"><img alt="tweet" src="https://img.shields.io/twitter/url?url=https://github.com/fwoawr/cf" /></a>
 <a href="https://twitter.com/teamssix"><img alt="Twitter" src="https://img.shields.io/twitter/follow/teamssix?label=Followers&style=social" /></a>
 <a href="https://github.com/teamssix"><img alt="Github" src="https://img.shields.io/github/followers/TeamsSix?style=social" /></a><br></br>
 中文 | <a href="README_EN.md">English</a>
@@ -17,7 +17,7 @@
 
 CF 是一个云环境利用框架，适用于在红队场景中对云上内网进行横向、SRC 场景中对 Access Key 即访问凭证的影响程度进行判定、企业场景中对自己的云上资产进行自检等等。
 
-CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases)
+CF 下载地址：[github.com/fwoawr/cf/releases](https://github.com/fwoawr/cf/releases)
 
 ![](https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202212132148217.png)
 
@@ -36,7 +36,7 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 
 ## 安装
 
-直接在 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases) 中下载系统对应的压缩文件，解压后在命令行中运行即可。
+直接在 CF 下载地址：[github.com/fwoawr/cf/releases](https://github.com/fwoawr/cf/releases) 中下载系统对应的压缩文件，解压后在命令行中运行即可。
 
 <details> <summary>目前支持的系统</summary><br>
 
@@ -147,7 +147,7 @@ cf upgrade
 
 ## 贡献者
 
-十分感谢各位师傅对 CF 的贡献~，如果你也想对 CF 贡献代码，请参见贡献说明：[CONTRIBUTING](https://github.com/teamssix/cf/blob/main/CONTRIBUTING.md)
+十分感谢各位师傅对 CF 的贡献~，如果你也想对 CF 贡献代码，请参见贡献说明：[CONTRIBUTING](https://github.com/fwoawr/cf/blob/main/CONTRIBUTING.md)
 
 <div align=center>
 <table>
@@ -190,7 +190,7 @@ CF 现已加入 [404星链计划](https://github.com/knownsec/404StarLink)
 <div align=center><img width="900" src="https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202209151716790.png"></div>
 
 
-<div align=center><a href="https://github.com/teamssix"><img src="https://api.star-history.com/svg?repos=teamssix/cf&type=Timeline"></a></div>
+<div align=center><a href="https://github.com/teamssix"><img src="https://api.star-history.com/svg?repos=fwoawr/cf&type=Timeline"></a></div>
 
 ## 注意事项
 

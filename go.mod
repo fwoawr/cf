@@ -1,4 +1,4 @@
-module github.com/teamssix/cf
+module github.com/fwoawr/cf
 
 go 1.18
 

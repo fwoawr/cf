@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/teamssix/cf/pkg/cloud"
-	"github.com/teamssix/cf/pkg/util"
+	"github.com/fwoawr/cf/pkg/cloud"
+	"github.com/fwoawr/cf/pkg/util"
 )
 
 func init() {

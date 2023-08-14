@@ -3,8 +3,8 @@ package util
 import (
 	"encoding/json"
 	log "github.com/sirupsen/logrus"
-	"github.com/teamssix/cf/pkg/util/errutil"
-	"github.com/teamssix/cf/pkg/util/global"
+	"github.com/fwoawr/cf/pkg/util/errutil"
+	"github.com/fwoawr/cf/pkg/util/global"
 	"io/ioutil"
 	"net/http"
 	"strconv"
@@ -41,7 +41,7 @@ func AlertUpdateInfo() {
 
 func CheckVersion(version string) (bool, string, error) {
 	WriteTimestamp(ReturnVersionTimestampFile())
-	url := "https://api.github.com/repos/teamssix/cf/releases/latest"
+	url := "https://api.github.com/repos/fwoawr/cf/releases/latest"
 	spaceClient := http.Client{}
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {

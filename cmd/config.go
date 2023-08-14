@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/teamssix/cf/pkg/util/cmdutil"
+	"github.com/fwoawr/cf/pkg/util/cmdutil"
 )
 
 var selectAll bool

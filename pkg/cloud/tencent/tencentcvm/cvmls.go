@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/teamssix/cf/pkg/util/errutil"
+	"github.com/fwoawr/cf/pkg/util/errutil"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/teamssix/cf/pkg/cloud"
-	"github.com/teamssix/cf/pkg/util/cmdutil"
+	"github.com/fwoawr/cf/pkg/cloud"
+	"github.com/fwoawr/cf/pkg/util/cmdutil"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
 	cvm "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cvm/v20170312"
 )

@@ -3,10 +3,10 @@ package tencent
 import (
 	"strconv"
 
-	"github.com/teamssix/cf/pkg/cloud/tencent/tencentcvm"
+	"github.com/fwoawr/cf/pkg/cloud/tencent/tencentcvm"
 
 	"github.com/spf13/cobra"
-	"github.com/teamssix/cf/pkg/cloud"
+	"github.com/fwoawr/cf/pkg/cloud"
 )
 
 func init() {

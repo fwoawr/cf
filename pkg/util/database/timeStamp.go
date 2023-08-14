@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/teamssix/cf/pkg/util/pubutil"
+	"github.com/fwoawr/cf/pkg/util/pubutil"
 )
 
 func InsertTimestamp(TimestampCache pubutil.TimestampCache) {

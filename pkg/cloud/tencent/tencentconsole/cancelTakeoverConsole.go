@@ -2,9 +2,9 @@ package tencentconsole
 
 import (
 	log "github.com/sirupsen/logrus"
-	"github.com/teamssix/cf/pkg/cloud/tencent/tencentcam"
-	"github.com/teamssix/cf/pkg/util/database"
-	"github.com/teamssix/cf/pkg/util/errutil"
+	"github.com/fwoawr/cf/pkg/cloud/tencent/tencentcam"
+	"github.com/fwoawr/cf/pkg/util/database"
+	"github.com/fwoawr/cf/pkg/util/errutil"
 	cam "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cam/v20190116"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
 )

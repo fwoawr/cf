@@ -4,9 +4,9 @@ import (
 	"strconv"
 
 	"github.com/spf13/cobra"
-	"github.com/teamssix/cf/pkg/cloud"
-	"github.com/teamssix/cf/pkg/cloud/alibaba/aliecs"
-	"github.com/teamssix/cf/pkg/cloud/alibaba/alirds"
+	"github.com/fwoawr/cf/pkg/cloud"
+	"github.com/fwoawr/cf/pkg/cloud/alibaba/aliecs"
+	"github.com/fwoawr/cf/pkg/cloud/alibaba/alirds"
 )
 
 var ecsRegionsAllRegions bool

@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/teamssix/cf/pkg/cloud"
-	"github.com/teamssix/cf/pkg/util/errutil"
-	"github.com/teamssix/cf/pkg/util/pubutil"
+	"github.com/fwoawr/cf/pkg/cloud"
+	"github.com/fwoawr/cf/pkg/util/errutil"
+	"github.com/fwoawr/cf/pkg/util/pubutil"
 
 	log "github.com/sirupsen/logrus"
 )

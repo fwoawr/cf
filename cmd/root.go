@@ -3,7 +3,7 @@ package cmd
 import (
 	"os"
 
-	"github.com/teamssix/cf/pkg/util"
+	"github.com/fwoawr/cf/pkg/util"
 
 	cc "github.com/ivanpirog/coloredcobra"
 	"github.com/spf13/cobra"
@@ -23,7 +23,7 @@ var RootCmd = &cobra.Command{
  ██▄        ▄██     ╚██████╗    ██║   
  ▀████   ▐████▀      ╚═════╝    ╚═╝
  
-        github.com/teamssix/cf
+        github.com/fwoawr/cf
 
 cf 是一个云环境利用框架，本工具仅可用于合法合规用途。
 cf is a cloud exploitation framework, designed for testing the security of cloud environments.

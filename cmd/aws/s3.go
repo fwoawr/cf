@@ -3,7 +3,7 @@ package aws
 import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/teamssix/cf/pkg/cloud/aws/awss3"
+	"github.com/fwoawr/cf/pkg/cloud/aws/awss3"
 )
 
 var (

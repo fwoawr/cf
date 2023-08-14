@@ -4,7 +4,7 @@
 
 ### 是否发现了 bug?
 
-如果你发现了程序中的 bug，建议可以先在 [issue](https://github.com/teamssix/cf/issues) 中进行搜索，看看以前有没有人提交过相同的 bug。
+如果你发现了程序中的 bug，建议可以先在 [issue](https://github.com/fwoawr/cf/issues) 中进行搜索，看看以前有没有人提交过相同的 bug。
 
 ### 发现了 bug，并准备自己为 CF 打补丁
 

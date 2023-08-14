@@ -3,8 +3,8 @@ package aws
 import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/teamssix/cf/pkg/cloud"
-	"github.com/teamssix/cf/pkg/cloud/aws/awsec2"
+	"github.com/fwoawr/cf/pkg/cloud"
+	"github.com/fwoawr/cf/pkg/cloud/aws/awsec2"
 	"strconv"
 )
 

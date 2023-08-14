@@ -2,8 +2,8 @@ package cmdutil
 
 import (
 	"github.com/bitly/go-simplejson"
-	"github.com/teamssix/cf/pkg/cloud"
-	"github.com/teamssix/cf/pkg/util/pubutil"
+	"github.com/fwoawr/cf/pkg/cloud"
+	"github.com/fwoawr/cf/pkg/util/pubutil"
 	"io/ioutil"
 	"os"
 	"path"

@@ -12,9 +12,9 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 
-	"github.com/teamssix/cf/pkg/util/errutil"
+	"github.com/fwoawr/cf/pkg/util/errutil"
 
-	"github.com/teamssix/cf/pkg/util/cmdutil"
+	"github.com/fwoawr/cf/pkg/util/cmdutil"
 
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/ecs"
 	"github.com/gookit/color"

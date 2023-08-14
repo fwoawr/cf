@@ -3,13 +3,13 @@ package aliecs
 import (
 	"os"
 
-	"github.com/teamssix/cf/pkg/util/errutil"
+	"github.com/fwoawr/cf/pkg/util/errutil"
 
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk"
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials"
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/ecs"
 	log "github.com/sirupsen/logrus"
-	"github.com/teamssix/cf/pkg/util/cmdutil"
+	"github.com/fwoawr/cf/pkg/util/cmdutil"
 )
 
 func ECSClient(region string) *ecs.Client {

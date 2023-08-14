@@ -2,7 +2,7 @@ package aws
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/teamssix/cf/cmd"
+	"github.com/fwoawr/cf/cmd"
 )
 
 func init() {

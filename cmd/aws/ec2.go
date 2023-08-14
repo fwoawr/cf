@@ -2,7 +2,7 @@ package aws
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/teamssix/cf/pkg/cloud/aws/awsec2"
+	"github.com/fwoawr/cf/pkg/cloud/aws/awsec2"
 )
 
 var (

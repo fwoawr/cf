@@ -3,7 +3,7 @@ package tencentcvm
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/teamssix/cf/pkg/util/errutil"
+	"github.com/fwoawr/cf/pkg/util/errutil"
 	"io/ioutil"
 	"os"
 	"sort"
@@ -14,7 +14,7 @@ import (
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/gookit/color"
 	log "github.com/sirupsen/logrus"
-	"github.com/teamssix/cf/pkg/util/cmdutil"
+	"github.com/fwoawr/cf/pkg/util/cmdutil"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
 	tat "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tat/v20201028"
 )
